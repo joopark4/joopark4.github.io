@@ -1,6 +1,6 @@
 # 🚀 EunYeon
 
-🔗 **[웹사이트 방문하기 (Live)](https://joopark4.github.io)**
+🔗 **[웹사이트 방문하기](https://joopark4.github.io)**
 
 ## 👨‍💻 Author
 **Eunyeon (joopark4)**
