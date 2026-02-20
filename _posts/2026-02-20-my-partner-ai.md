@@ -9,10 +9,13 @@ published: true
 ---
 
 ## 💡 프로젝트 소개 (Overview)
-**MyPartnerAI**는 VRM 모델을 기반으로 한 나만의 아바타 AI 비서 앱입니다.
-- **지원 API:** Gemini, OpenAI, Claude API 지원
-- **로컬 모델:** Ollama 연동을 통한 프라이빗 로컬 모델(On-Device AI) 지원
-- **다국어 소통:** 한국어 및 영어 지원
+**MyPartnerAI**는 자신이 원하는 모습의 3D 아바타(.vrm)를 불러와 대화할 수 있는 나만의 인공지능 비서 앱입니다.
+
+- **지원 API (클라우드 모델):** [Google Gemini](https://aistudio.google.com/app/apikey), [OpenAI](https://platform.openai.com/api-keys), [Anthropic Claude](https://console.anthropic.com/) 언어 모델들의 공식 API Key를 등록하여 사용할 수 있습니다.
+- **로컬 모델 (프라이빗 AI):** [Ollama](https://ollama.com/) 컴퓨터의 자원만으로 프라이빗하게 동작하는 로컬 AI를 지원합니다.
+- **VRM 아바타 모델:** 앱 내에서 캐릭터를 활성화하기 위해서는 `.vrm` 확장자로 된 3D 아바타 파일이 반드시 필요합니다.
+
+  *(💡 **Tip:** [VRoid Studio](https://vroid.com/en/studio)를 이용해 나만의 아바타를 직접 제작하시거나, [VRoid Hub](https://hub.vroid.com/) 같은 플랫폼에서 다른 크리에이터들이 공유한 무료 모델을 다운로드하여 활용해 보세요!)*
 
 ---
 
