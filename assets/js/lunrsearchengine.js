@@ -82,6 +82,12 @@ function lunr_search(term) {
 }
     
 $(function() {
+    $("#lunrsearch").keypress(function(e) {
+        if(e.which == 13) {
+            e.preventDefault();
+            lunr_search($("#lunrsearch").val());
+        }
+    });
     $("#lunrsearchresults").on('click', '#btnx', function () {
         $('#lunrsearchresults').hide( 5 );
         $( "body" ).removeClass( "modal-open" );
