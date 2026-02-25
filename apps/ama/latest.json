@@ -4,12 +4,12 @@
   "pub_date": "2026-02-25T12:00:00Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTQlBLbVdqNVUyR0VGbGVhYkU1S0xrM2xyWnJhcm54SWk0blFYNEExWGtvUytSdlpiYmtrbU5CSU05YVBHVHJNbytJLzZkQmpmMWtZOE55UTg1THdDVzRQZzNjZllrV3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyMDExNTUzCWZpbGU6TXlQYXJ0bmVyQUkuYXBwLnRhci5nego4V0VFK0JNVVZNVEZRVjdtMC9pVzFpRnprQjBQUERnMkNTUFVqaDhEbk0xb0ZFY0JOTzVVU0tPcGgrQWdHWVFTMExrN1ZBdmxiUjNKR3VZRCtkMzVDZz09Cg==",
-      "url": "https://joopark4.github.io/apps/ama/AMA_0.3.0_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUldTQlBLbVdqNVUyR0kxRW9jTzAxZ1owZVdWU1FWWTJoeGhCZ0FzaUhpeEk4cU5rQnZlQnpNaTBCQi9ESWpxamxFREcwelNRbUl5bEtvcVVzUE85UEpvVXFkY2ZNVEZ2NHd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyMDE4MDI0CWZpbGU6QU1BLmFwcC50YXIuZ3oKRlFZbGFLRGp3T01Jclhma1NOakNZMkdKWG5FSzR5TWJOTzI3dFVWNnhxeS9TUUtPUVFSMGc1MEpHNXpCY3M2NFNNbTlJL1pDNHZ1SE1ORk4rbEpiREE9PQo=",
+      "url": "https://joopark4.github.io/apps/ama/AMA_0.3.2_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTQlBLbVdqNVUyR0VGbGVhYkU1S0xrM2xyWnJhcm54SWk0blFYNEExWGtvUytSdlpiYmtrbU5CSU05YVBHVHJNbytJLzZkQmpmMWtZOE55UTg1THdDVzRQZzNjZllrV3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyMDExNTUzCWZpbGU6TXlQYXJ0bmVyQUkuYXBwLnRhci5nego4V0VFK0JNVVZNVEZRVjdtMC9pVzFpRnprQjBQUERnMkNTUFVqaDhEbk0xb0ZFY0JOTzVVU0tPcGgrQWdHWVFTMExrN1ZBdmxiUjNKR3VZRCtkMzVDZz09Cg==",
-      "url": "https://joopark4.github.io/apps/ama/AMA_0.3.0_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUldTQlBLbVdqNVUyR0kxRW9jTzAxZ1owZVdWU1FWWTJoeGhCZ0FzaUhpeEk4cU5rQnZlQnpNaTBCQi9ESWpxamxFREcwelNRbUl5bEtvcVVzUE85UEpvVXFkY2ZNVEZ2NHd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyMDE4MDI0CWZpbGU6QU1BLmFwcC50YXIuZ3oKRlFZbGFLRGp3T01Jclhma1NOakNZMkdKWG5FSzR5TWJOTzI3dFVWNnhxeS9TUUtPUVFSMGc1MEpHNXpCY3M2NFNNbTlJL1pDNHZ1SE1ORk4rbEpiREE9PQo=",
+      "url": "https://joopark4.github.io/apps/ama/AMA_0.3.2_aarch64.app.tar.gz"
     }
   }
 }
