@@ -1,0 +1,15 @@
+{
+  "version": "0.3.0",
+  "notes": "온디맨드 모델 다운로드 + 자동 업데이트 구현",
+  "pub_date": "2026-02-25T09:42:21Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTQlBLbVdqNVUyR0VGbGVhYkU1S0xrM2xyWnJhcm54SWk0blFYNEExWGtvUytSdlpiYmtrbU5CSU05YVBHVHJNbytJLzZkQmpmMWtZOE55UTg1THdDVzRQZzNjZllrV3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyMDExNTUzCWZpbGU6TXlQYXJ0bmVyQUkuYXBwLnRhci5nego4V0VFK0JNVVZNVEZRVjdtMC9pVzFpRnprQjBQUERnMkNTUFVqaDhEbk0xb0ZFY0JOTzVVU0tPcGgrQWdHWVFTMExrN1ZBdmxiUjNKR3VZRCtkMzVDZz09Cg==",
+      "url": "https://joopark4.github.io/apps/ama/AMA_0.3.0_aarch64.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTQlBLbVdqNVUyR0VGbGVhYkU1S0xrM2xyWnJhcm54SWk0blFYNEExWGtvUytSdlpiYmtrbU5CSU05YVBHVHJNbytJLzZkQmpmMWtZOE55UTg1THdDVzRQZzNjZllrV3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyMDExNTUzCWZpbGU6TXlQYXJ0bmVyQUkuYXBwLnRhci5nego4V0VFK0JNVVZNVEZRVjdtMC9pVzFpRnprQjBQUERnMkNTUFVqaDhEbk0xb0ZFY0JOTzVVU0tPcGgrQWdHWVFTMExrN1ZBdmxiUjNKR3VZRCtkMzVDZz09Cg==",
+      "url": "https://joopark4.github.io/apps/ama/AMA_0.3.0_aarch64.app.tar.gz"
+    }
+  }
+}
