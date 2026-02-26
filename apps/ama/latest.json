@@ -5,11 +5,11 @@
   "platforms": {
     "darwin-aarch64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTQlBLbVdqNVUyR0ZlV3ltbXk5K055bkJEN01BSmt3ck1YK293dWRwQmluZ2J2U2s4clhmUElnRjA5RjZoQlA0SGFPc1FXdWVRdFZsdWpZSHZ2T1E5MjVXNThzTXJZL2dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyMDkzNjE2CWZpbGU6QU1BLmFwcC50YXIuZ3oKU2VDWnJNVmZsNjcrVFV1RHQ1WFNjZDJhM0NySHhTNHNlejE5UVZ0eFZIcWNOTWRNMG85VWlheGhIck52VGhlVnhCb2IxOUtsWnZHU0d0ZXljTW5RQlE9PQo=",
-      "url": "https://github.com/joopark4/MyPartnerAI/releases/download/v0.4.0/AMA.app.tar.gz"
+      "url": "https://joopark4.github.io/apps/ama/AMA_0.4.0_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTQlBLbVdqNVUyR0ZlV3ltbXk5K055bkJEN01BSmt3ck1YK293dWRwQmluZ2J2U2s4clhmUElnRjA5RjZoQlA0SGFPc1FXdWVRdFZsdWpZSHZ2T1E5MjVXNThzTXJZL2dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyMDkzNjE2CWZpbGU6QU1BLmFwcC50YXIuZ3oKU2VDWnJNVmZsNjcrVFV1RHQ1WFNjZDJhM0NySHhTNHNlejE5UVZ0eFZIcWNOTWRNMG85VWlheGhIck52VGhlVnhCb2IxOUtsWnZHU0d0ZXljTW5RQlE9PQo=",
-      "url": "https://github.com/joopark4/MyPartnerAI/releases/download/v0.4.0/AMA.app.tar.gz"
+      "url": "https://joopark4.github.io/apps/ama/AMA_0.4.0_aarch64.app.tar.gz"
     }
   }
 }
