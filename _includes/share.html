@@ -5,9 +5,9 @@
     {% capture share_tags %}{% for tag in page.categories %}#{{tag | remove: " "}} {% endfor %}{% for tag in page.tags
     %}#{{tag | remove: " "}} {% endfor %}{% endcapture %}
     {% assign share_tags = share_tags | strip %}
-    {% capture share_text %}{{ page.title | escape }} {{ share_tags }}{% endcapture %}
-    {% assign share_text_encoded = share_text | uri_escape %}
-    {% assign share_url = page.url | absolute_url | uri_escape %}
+    {% capture share_text %}{{ page.title }} {{ share_tags }}{% endcapture %}
+    {% assign share_text_encoded = share_text | cgi_escape | replace: "+", "%20" %}
+    {% assign share_url = page.url | absolute_url | cgi_escape | replace: "+", "%20" %}
     <ul>
         <li class="ml-1 mr-1">
             <a target="_blank"
