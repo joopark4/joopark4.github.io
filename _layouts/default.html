@@ -109,10 +109,19 @@
             <div class="mainheading">
                 <h1 class="sitetitle">
                     <a href="{{ site.baseurl }}/" class="text-dark">{{ site.name }}</a>
-                    <a href="https://github.com/joopark4" target="_blank" rel="noopener noreferrer" title="GitHub"
-                        style="color: #333; font-size: 0.8em; margin-left: 10px;"><i class="fab fa-github"></i></a>
-                    <a href="mailto:jooparkhappy4@gmail.com" title="Email"
-                        style="color: #333; font-size: 0.8em; margin-left: 10px;"><i class="fas fa-envelope"></i></a>
+                    <span
+                        style="font-size: 0.6em; vertical-align: middle; margin-left: 15px; border-left: 2px solid #eaeaea; padding-left: 15px; display: inline-block; padding-top: 5px;">
+                        <a href="https://github.com/joopark4" target="_blank" rel="noopener noreferrer" title="GitHub"
+                            class="text-muted" style="margin-right: 10px; transition: color 0.2s;"
+                            onmouseover="this.style.color='#333';" onmouseout="this.style.color='#6c757d';">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:jooparkhappy4@gmail.com" title="Email" class="text-muted"
+                            style="transition: color 0.2s;" onmouseover="this.style.color='#ea4335';"
+                            onmouseout="this.style.color='#6c757d';">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </span>
                 </h1>
                 <p class="lead">
                     {{ site.description }}
