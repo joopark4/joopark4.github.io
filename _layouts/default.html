@@ -79,6 +79,20 @@
                         <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
                     </li>
 
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarSponsorDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Sponsor
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarSponsorDropdown">
+                            {% for sponsor in site.data.sponsors %}
+                            <a class="dropdown-item" href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer">
+                                {{ sponsor.name }}
+                            </a>
+                            {% endfor %}
+                        </div>
+                    </li>
+
                     <!-- <li class="nav-item">
                 <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
                 </li>
