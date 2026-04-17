@@ -1,0 +1,33 @@
+# Add the newest release to the top of this list.
+# The first entry powers the latest download link, release notes redirect, and appcast latest item.
+releases:
+  - version: "1.6.0"
+    build: 6
+    pub_date: "Fri, 17 Apr 2026 12:11:32 +0900"
+    minimum_system_version: "15.0"
+    download_filename: "SumThumb-1.6.0-b6.dmg"
+    download_path: "/apps/sumthumb/SumThumb-1.6.0-b6.dmg"
+    download_length: 17588209
+    release_notes_filename: "SumThumb-1.6.0.md"
+    release_notes_path: "/apps/sumthumb/SumThumb-1.6.0.md"
+    signature: "kZlLccmQZhnhSKRfyQpyrwAXheSAf8W/c0ioZlbpNBIDj7QPoidcMTYhHH5o8mooAR5oDs0PQ3KWi1jwHitIBw=="
+  - version: "1.5.1"
+    build: 5
+    pub_date: "Fri, 27 Feb 2026 12:58:29 +0900"
+    minimum_system_version: "15.0"
+    download_filename: "SumThumb-1.5.1.dmg"
+    download_path: "/apps/sumthumb/SumThumb-1.5.1.dmg"
+    download_length: 19076489
+    release_notes_filename: "SumThumb-1.5.1.md"
+    release_notes_path: "/apps/sumthumb/SumThumb-1.5.1.md"
+    signature: "PfxnFf2D5YiHoKc8FzMG5vFy3yvPWzO9EfgUYkPHTdOsjmObtXeSqDF+fQ2Tt+KSsPwna6SftiXUIeHQpxXxAQ=="
+  - version: "1.5"
+    build: 3
+    pub_date: "Tue, 24 Feb 2026 23:53:51 +0900"
+    minimum_system_version: "15.0"
+    download_filename: "SumThumb-1.5.dmg"
+    download_path: "/apps/sumthumb/SumThumb-1.5.dmg"
+    download_length: 17512179
+    release_notes_filename: "SumThumb-1.5.md"
+    release_notes_path: "/apps/sumthumb/SumThumb-1.5.md"
+    signature: "QDrDhS5pdTC0G+uUmSl7JG5VgrlFg9p7LwRm7Qvfa07HfX8VZ5ouQRBOMNjsN4figcPRUfH1lZvbsMFRaXlEAg=="

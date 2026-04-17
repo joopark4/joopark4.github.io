@@ -1,34 +1,26 @@
+---
+layout: null
+---
+{% assign releases = site.data.sumthumb.releases %}
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
     <channel>
         <title>Sum-Thumb Updates</title>
         <language>ko</language>
+{% for release in releases %}
         <item>
-            <title>1.6.0</title>
-            <pubDate>Fri, 17 Apr 2026 12:11:32 +0900</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:releaseNotesLink>https://joopark4.github.io/apps/sumthumb/SumThumb-1.6.0.md</sparkle:releaseNotesLink>
-            <enclosure url="https://joopark4.github.io/apps/sumthumb/SumThumb-1.6.0-b6.dmg" length="17588209" type="application/octet-stream" sparkle:edSignature="kZlLccmQZhnhSKRfyQpyrwAXheSAf8W/c0ioZlbpNBIDj7QPoidcMTYhHH5o8mooAR5oDs0PQ3KWi1jwHitIBw=="/>
+            <title>{{ release.version }}</title>
+            <pubDate>{{ release.pub_date }}</pubDate>
+            <sparkle:version>{{ release.build }}</sparkle:version>
+            <sparkle:shortVersionString>{{ release.version }}</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>{{ release.minimum_system_version }}</sparkle:minimumSystemVersion>
+{% if forloop.first %}
+            <sparkle:releaseNotesLink>{{ '/apps/sumthumb/release-notes/' | absolute_url }}</sparkle:releaseNotesLink>
+{% else %}
+            <sparkle:releaseNotesLink>{{ release.release_notes_path | absolute_url }}</sparkle:releaseNotesLink>
+{% endif %}
+            <enclosure url="{{ release.download_path | absolute_url }}" length="{{ release.download_length }}" type="application/octet-stream" sparkle:edSignature="{{ release.signature }}"/>
         </item>
-        <item>
-            <title>1.5.1</title>
-            <pubDate>Fri, 27 Feb 2026 12:58:29 +0900</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:releaseNotesLink>https://joopark4.github.io/apps/sumthumb/SumThumb-1.5.1.md</sparkle:releaseNotesLink>
-            <enclosure url="https://joopark4.github.io/apps/sumthumb/SumThumb-1.5.1.dmg" length="19076489" type="application/octet-stream" sparkle:edSignature="PfxnFf2D5YiHoKc8FzMG5vFy3yvPWzO9EfgUYkPHTdOsjmObtXeSqDF+fQ2Tt+KSsPwna6SftiXUIeHQpxXxAQ=="/>
-        </item>
-        <item>
-            <title>1.5</title>
-            <pubDate>Tue, 24 Feb 2026 23:53:51 +0900</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>1.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:releaseNotesLink>https://joopark4.github.io/apps/sumthumb/SumThumb-1.5.md</sparkle:releaseNotesLink>
-            <enclosure url="https://joopark4.github.io/apps/sumthumb/SumThumb-1.5.dmg" length="17512179" type="application/octet-stream" sparkle:edSignature="QDrDhS5pdTC0G+uUmSl7JG5VgrlFg9p7LwRm7Qvfa07HfX8VZ5ouQRBOMNjsN4figcPRUfH1lZvbsMFRaXlEAg=="/>
-        </item>
+{% endfor %}
     </channel>
 </rss>

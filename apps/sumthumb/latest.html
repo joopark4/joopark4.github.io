@@ -1,0 +1,23 @@
+---
+layout: null
+permalink: /apps/sumthumb/latest/
+---
+{% assign latest = site.data.sumthumb.releases.first %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>SumThumb latest download</title>
+    <meta http-equiv="refresh" content="0; url={{ latest.download_path | absolute_url }}">
+    <link rel="canonical" href="{{ latest.download_path | absolute_url }}">
+    <script>
+      window.location.replace("{{ latest.download_path | absolute_url }}");
+    </script>
+  </head>
+  <body>
+    <p>
+      Redirecting to the latest SumThumb download.
+      <a href="{{ latest.download_path | absolute_url }}">Continue</a>
+    </p>
+  </body>
+</html>
